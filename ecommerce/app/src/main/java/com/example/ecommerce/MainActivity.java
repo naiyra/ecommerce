@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     Button signup;
     Button signin;
 
+    boolean flag;
     TextView displayDate;
     private static final String TAG= "MainActivity";
     private DatePickerDialog.OnDateSetListener DateListener;
@@ -50,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
         repass = (EditText) findViewById(R.id.repass);
         signup = (Button) findViewById(R.id.signup);
         signin = (Button) findViewById(R.id.signin);
+
+        flag=false;
+
 
         displayDate=(TextView) findViewById(R.id.textViewDate);
 
@@ -82,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 String date= month + "/"+dayOfMonth+"/"+year;
                 displayDate.setText(date);
 
+                flag=true;
 
 
             }
@@ -93,10 +98,11 @@ public class MainActivity extends AppCompatActivity {
                 String user = username.getText().toString();
                 String pass = password.getText().toString();
                 String rep = repass.getText().toString();
+
                 String date=displayDate.getText().toString();
 
 
-                if(user.equals("")||pass.equals("")||rep.equals("")||date.equals(""))
+                if(user.equals("")||pass.equals("")||rep.equals("")||flag==false)
                     Toast.makeText(MainActivity.this, "There is an empty field.", Toast.LENGTH_LONG).show();
                 else
                 {

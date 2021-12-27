@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
+        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/activity_new_password.xml" value="0.1" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/activity_pants.xml" value="0.1" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/activity_password_recovery.xml" value="0.1" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/activity_tshirts.xml" value="0.1" />
+        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/bags_fragments.xml" value="0.1" />
+        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/fragments.xml" value="0.1" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/list_item.xml" value="0.67" />
-        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/pants_fragment.xml" value="0.67" />
+        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/shoes_fragments.xml" value="0.1" />
+        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/shorts_fragment.xml" value="0.397887323943662" />
+        <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/tshirt_fragment.xml" value="0.5" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/menu/drawer_menu.xml" value="0.33" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/menu/nav_drawer.xml" value="0.2" />
       </map>
