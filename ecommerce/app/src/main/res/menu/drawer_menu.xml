@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_tshirts"
+            android:icon="@drawable/ic_t_shirt_svgrepo_com"
+            android:title="Tshirts"/>
+        <item android:id="@+id/nav_pants"
+            android:icon="@drawable/ic_pants_svgrepo_com"
+            android:title="Pants"/>
+        <item android:id="@+id/nav_shorts"
+            android:icon="@drawable/ic_shorts_svgrepo_com"
+            android:title="Shorts"/>
+        <item android:id="@+id/nav_bags"
+            android:icon="@drawable/ic_backpack_svgrepo_com"
+            android:title="Bags"/>
+        <item android:id="@+id/nav_shoes"
+            android:icon="@drawable/ic_shoes_svgrepo_com"
+            android:title="Shoes"/>
+        <item android:id="@+id/nav_logout"
+
+            android:title="Logout"/>
+
+    </group>
+
+
+
+</menu>

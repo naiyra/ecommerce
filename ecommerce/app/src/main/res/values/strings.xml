@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ecommerce</string>
+
+    <string-array name="titles">
+        <item>
+            Tshirt
+        </item>
+        <item>
+            Pants
+        </item>
+        <item>
+            Shorts
+        </item>
+        <item>
+            Bags
+        </item>
+        <item>
+            Shoes
+        </item>
+
+    </string-array>
+    <array name="icons">
+        <item>
+            @drawable/ic_t_shirt_svgrepo_com
+        </item>
+        <item>
+            @drawable/ic_pants_svgrepo_com
+        </item>
+        <item>
+            @drawable/ic_shorts_svgrepo_com
+        </item>
+        <item>
+            @drawable/ic_backpack_svgrepo_com
+        </item>
+        <item>
+            @drawable/ic_shoes_svgrepo_com
+        </item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
