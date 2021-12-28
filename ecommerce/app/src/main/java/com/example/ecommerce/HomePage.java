@@ -9,7 +9,13 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.view.MenuItem;
+
+import android.os.PerformanceHintManager;
+import android.view.View;
+import android.widget.Button;
+
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -30,6 +36,7 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
         setSupportActionBar(toolbar);
 
 
+
         drawer = findViewById(R.id.drawer_layout);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -38,6 +45,21 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
                 R.string.drawer_open, R.string.drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+
+        Product p1 = new Product("lol",20,1);
+        Product p2 = new Product("lol1",20,12);
+        Product p3 = new Product("lol2",20,13);
+        Cart.cart.add(p1);
+        Cart.cart.add(p2);
+        Cart.cart.add(p3);
+        Button cart = findViewById(R.id.button);
+        cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Cart.class);
+                startActivity(intent);
+            }
+        });
 
 
 

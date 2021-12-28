@@ -9,12 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ecommerce">
-
+        <activity
+            android:name=".Selected_Item"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
         <activity
             android:name=".HomePage"
             android:exported="false"
-            android:theme="@style/Theme.noActionbar"/>
-
+            android:theme="@style/Theme.noActionbar" />
         <activity
             android:name=".PasswordRecovery"
             android:exported="false" />
