@@ -46,12 +46,7 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        Product p1 = new Product("lol",20,1);
-        Product p2 = new Product("lol1",20,12);
-        Product p3 = new Product("lol2",20,13);
-        Cart.cart.add(p1);
-        Cart.cart.add(p2);
-        Cart.cart.add(p3);
+
         Button cart = findViewById(R.id.button);
         cart.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,8 +56,22 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
             }
         });
 
+    }
 
-
+    public static void addProduct(Product prod)
+    {
+        boolean found = false;
+        for(int i = 0; i < Cart.cart.size(); i++)
+        {
+            if(Cart.cart.get(i).name.equals(prod.name))
+            {
+                Cart.cart.get(i).quantity++;
+                found = true;
+                break;
+            }
+        }
+        if(!found)
+            Cart.cart.add(prod);
     }
 
     @Override
@@ -107,4 +116,5 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
         return true;
         //item was selected
     }
+
 }

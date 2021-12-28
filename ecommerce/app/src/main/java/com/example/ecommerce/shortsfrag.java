@@ -31,37 +31,43 @@ public class shortsfrag extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getActivity().getApplicationContext(), Login.class);
-                startActivity(intent);
+                Product shorts = new Product("Shorts1",20,1);
+                HomePage.addProduct(shorts);
             }
         });
 
         B2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product shorts = new Product("Shorts2",10,1);
+                HomePage.addProduct(shorts);
             }
         });
         B3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product shorts = new Product("Shorts3",15,1);
+                HomePage.addProduct(shorts);
             }
         });
         B4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product shorts = new Product("Shorts4",18,1);
+                HomePage.addProduct(shorts);
             }
         });
 
         B5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product shorts = new Product("Shorts5",15,1);
+                HomePage.addProduct(shorts);
             }
         });
 
     }
+
+
 
 }

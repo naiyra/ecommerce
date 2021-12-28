@@ -16,12 +16,6 @@ public class TshirtsFrag extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.tshirt_fragment,container,false);
 
-
-
-
-
-
-
     }
 
     @Override
@@ -34,30 +28,35 @@ public class TshirtsFrag extends Fragment {
          B1.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-
+                Product shirt = new Product("Tshirt1",20,1);
+                 HomePage.addProduct(shirt);
              }
          });
 
          B2.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-
+                 Product shirt = new Product("Tshirt2",30,1);
+                 HomePage.addProduct(shirt);
              }
          });
         B3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product shirt = new Product("Tshirt3",35,1);
+                HomePage.addProduct(shirt);
             }
         });
         B4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product shirt = new Product("Tshirt4",40,1);
+                HomePage.addProduct(shirt);
             }
         });
 
 
     }
+
 
 }

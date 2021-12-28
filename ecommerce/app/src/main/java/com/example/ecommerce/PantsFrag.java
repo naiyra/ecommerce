@@ -30,36 +30,42 @@ public class PantsFrag extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getActivity().getApplicationContext(), Login.class);
-                startActivity(intent);
+                Product pants = new Product("Pants1",30,1);
+                HomePage.addProduct(pants);
             }
         });
 
         B2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product pants = new Product("Pants2",25,1);
+                HomePage.addProduct(pants);
             }
         });
         B3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product pants = new Product("Pants3",28,1);
+                HomePage.addProduct(pants);
             }
         });
         B4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product pants = new Product("Pants4",26,1);
+                HomePage.addProduct(pants);
             }
         });
         B5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Product pants = new Product("Pants5",29,1);
+                HomePage.addProduct(pants);
             }
         });
 
 
     }
+
+
 }
