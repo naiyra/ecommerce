@@ -26,6 +26,13 @@
         android:layout_height="wrap_content"
         android:text="Clear" />
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
     <ListView
         android:id="@+id/listItems"
         android:layout_width="match_parent"

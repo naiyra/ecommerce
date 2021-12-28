@@ -10,15 +10,17 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
 public class Cart extends AppCompatActivity {
 
-    Button add;
+    Button submit;
     Button remove;
     Button back;
     ListView items;
+    TextView sumText;
     public static ArrayList<Product> cart = new ArrayList<Product>();
     ArrayList<String> item_names = new ArrayList<String>();
     ArrayAdapter<String> adapter;
@@ -28,15 +30,19 @@ public class Cart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
 
-        add = (Button) findViewById(R.id.add_button);
+        submit = (Button) findViewById(R.id.add_button);
         remove = (Button) findViewById(R.id.remove_button);
         items = (ListView) findViewById(R.id.listItems);
         back = (Button) findViewById(R.id.button7);
+        sumText = (TextView) findViewById(R.id.textView7);
 
+        float sum = 0;
         for(int i = 0; i < cart.size(); i++)
         {
             item_names.add(cart.get(i).name);
+            sum += cart.get(i).quantity * cart.get(i).price;
         }
+        sumText.setText("Total cost is: " + sum);
 
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,android.R.id.text1,item_names);
 
@@ -76,10 +82,10 @@ public class Cart extends AppCompatActivity {
             }
         });
 
-        add.setOnClickListener(new View.OnClickListener() {
+        submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),mapss.class);
+                Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
                 startActivity(intent);
             }
         });

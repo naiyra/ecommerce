@@ -63,6 +63,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="24dp"
             android:text="Pants1"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,6 +74,7 @@
             android:layout_marginStart="31dp"
             android:layout_marginTop="2dp"
             android:text="30"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pant1" />
 
@@ -83,6 +85,7 @@
             android:layout_marginStart="36dp"
             android:layout_marginTop="112dp"
             android:text="Pants2"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,6 +96,7 @@
             android:layout_marginStart="36dp"
             android:layout_marginTop="1dp"
             android:text="25"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pant2" />
 
@@ -103,6 +107,7 @@
             android:layout_marginStart="39dp"
             android:layout_marginTop="31dp"
             android:text="Pants3"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/but2" />
 
@@ -112,6 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="39dp"
             android:text="28"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pant3" />
 
@@ -122,6 +128,7 @@
             android:layout_marginStart="39dp"
             android:layout_marginTop="19dp"
             android:text="Pants4"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/but3" />
 
@@ -132,6 +139,7 @@
             android:layout_marginStart="44dp"
             android:layout_marginTop="340dp"
             android:text="26"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -142,6 +150,7 @@
             android:layout_marginStart="52dp"
             android:layout_marginTop="420dp"
             android:text="29"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -209,6 +218,7 @@
             android:layout_marginStart="52dp"
             android:layout_marginTop="400dp"
             android:text="Pants5"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
