@@ -20,6 +20,12 @@
         <item android:id="@+id/nav_shoes"
             android:icon="@drawable/ic_shoes_svgrepo_com"
             android:title="Shoes"/>
+        <item android:id="@+id/nav_searchVoice"
+            android:icon="@drawable/ic_baseline_keyboard_voice_24"
+            android:title="Voice search"/>
+        <item android:id="@+id/nav_Home"
+
+            android:title="Home Page"/>
         <item android:id="@+id/nav_logout"
 
             android:title="Logout"/>

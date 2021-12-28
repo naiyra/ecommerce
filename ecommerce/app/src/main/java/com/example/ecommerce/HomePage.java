@@ -11,7 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import android.view.MenuItem;
-
+import android.speech.tts.TextToSpeech;
 import android.os.PerformanceHintManager;
 import android.view.View;
 import android.widget.Button;
@@ -81,6 +81,10 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
         } else {
             super.onBackPressed();
         }
+
+
+
+
     }
 
     @Override
@@ -106,8 +110,16 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new shoesfrag()).commit();
                 break;
+            case R.id.nav_searchVoice:
+                Intent intent = new Intent(getApplicationContext(), searchByVoice.class);
+                startActivity(intent);
+                break;
+            case R.id.nav_Home:
+                intent = new Intent(getApplicationContext(), HomePage.class);
+                startActivity(intent);
+                break;
             case R.id.nav_logout:
-                Intent intent = new Intent(getApplicationContext(), Login.class);
+               intent = new Intent(getApplicationContext(), Login.class);
                 startActivity(intent);
 
         }

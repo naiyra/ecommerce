@@ -25,6 +25,7 @@ public class TshirtsFrag extends Fragment {
         Button B2=view.findViewById(R.id.b2);
         Button B3=view.findViewById(R.id.b3);
         Button B4=view.findViewById(R.id.b4);
+
          B1.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
@@ -32,6 +33,7 @@ public class TshirtsFrag extends Fragment {
                  HomePage.addProduct(shirt);
              }
          });
+
 
          B2.setOnClickListener(new View.OnClickListener() {
              @Override

@@ -27,6 +27,7 @@ public class shortsfrag extends Fragment {
         Button B3=view.findViewById(R.id.bu3);
         Button B4=view.findViewById(R.id.bu4);
         Button B5=view.findViewById(R.id.bu4);
+
         B1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

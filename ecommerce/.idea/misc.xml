@@ -21,10 +21,22 @@
         <entry key="..\:/ecommerce/ecommerce/app/src/main/res/layout/shoes_fragments.xml" value="0.36666666666666664" />
         <entry key="..\:/ecommerce/ecommerce/app/src/main/res/layout/shorts_fragment.xml" value="0.36666666666666664" />
         <entry key="..\:/ecommerce/ecommerce/app/src/main/res/layout/tshirt_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/drawable/ic_baseline_keyboard_voice_24.xml" value="0.51875" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_cart.xml" value="0.1" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_gps.xml" value="0.1" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_home_page.xml" value="0.56875" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_search_by_voice.xml" value="0.2403846153846154" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_selected_item.xml" value="0.1" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/bags_fragments.xml" value="0.1" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/shorts_fragment.xml" value="0.5" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/tshirt_fragment.xml" value="0.5" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/menu/drawer_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
@@ -33,7 +45,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.22" />
+        <option name="scale" value="0.56875" />
       </ProjectState>
     </option>
   </component>
