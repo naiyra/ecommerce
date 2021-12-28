@@ -36,6 +36,12 @@ public class Login extends AppCompatActivity {
         DB = new DBHelper(this);
         rememberme=findViewById(R.id.rememberMe);
         forgot = (Button) findViewById(R.id.button2);
+
+        SharedPreferences selected_item = getSharedPreferences("PREF", 0);
+        SharedPreferences.Editor editor = selected_item.edit();
+        editor.putBoolean("is Search",false);
+        editor.commit();
+
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

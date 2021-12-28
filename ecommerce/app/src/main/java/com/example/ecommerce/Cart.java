@@ -45,11 +45,10 @@ public class Cart extends AppCompatActivity {
         items.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                //String text = items.getItemAtPosition(i).toString();
-                //int quantity = cart.get(i).quantity;
+
                 SharedPreferences item_name = getSharedPreferences("PREFS",0);
                 SharedPreferences.Editor editor = item_name.edit();
-                //editor.putString("text",text);
+
                 editor.putInt("index",i);
                 editor.commit();
 
@@ -80,7 +79,7 @@ public class Cart extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
+                Intent intent = new Intent(getApplicationContext(),mapss.class);
                 startActivity(intent);
             }
         });

@@ -8,6 +8,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import android.view.MenuItem;
@@ -31,7 +32,27 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
+        SharedPreferences selected_item = getSharedPreferences("PREF", 0);
 
+        int index = selected_item.getInt("index", 0);
+        boolean b= selected_item.getBoolean("is Search",false);
+        String s= selected_item.getString("category","");
+
+        if(b==true) {
+            SharedPreferences.Editor editor = selected_item.edit();
+            editor.putBoolean("is Search",false);
+            editor.commit();
+            if (s.equals("shorts")) {
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new shortsfrag()).commit();
+            } else if (s.equals("pants")) {
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new PantsFrag()).commit();
+            } else if (s.equals("T-shirt")) {
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new TshirtsFrag()).commit();
+            }
+        }
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

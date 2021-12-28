@@ -14,7 +14,7 @@
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/layout/nav_header.xml" value="0.25" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/menu/drawer_menu.xml" value="0.33" />
         <entry key="..\:/Users/nayour/AndroidStudioProjects/ecommerce/app/src/main/res/menu/nav_drawer.xml" value="0.2" />
-        <entry key="..\:/ecommerce/ecommerce/app/src/main/res/layout/activity_cart.xml" value="0.33" />
+        <entry key="..\:/ecommerce/ecommerce/app/src/main/res/layout/activity_cart.xml" value="0.2896174863387978" />
         <entry key="..\:/ecommerce/ecommerce/app/src/main/res/layout/activity_home_page.xml" value="0.338768115942029" />
         <entry key="..\:/ecommerce/ecommerce/app/src/main/res/layout/activity_selected_item.xml" value="0.33" />
         <entry key="..\:/ecommerce/ecommerce/app/src/main/res/layout/pants_fragment.xml" value="0.36666666666666664" />
@@ -25,12 +25,16 @@
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_cart.xml" value="0.1" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_gps.xml" value="0.1" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_home_page.xml" value="0.56875" />
-        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_maps.xml" value="0.1" />
-        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_search_by_voice.xml" value="0.2403846153846154" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_login.xml" value="0.5075" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_maps.xml" value="0.33" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_mapss.xml" value="0.67" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_search_by_voice.xml" value="0.5" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_selected_item.xml" value="0.1" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/bags_fragments.xml" value="0.1" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/nav_header.xml" value="0.1" />
-        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/shorts_fragment.xml" value="0.5" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/pants_fragment.xml" value="0.5075" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/shoes_fragments.xml" value="0.48625" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/shorts_fragment.xml" value="0.33" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/tshirt_fragment.xml" value="0.5" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/menu/drawer_menu.xml" value="0.1" />
       </map>

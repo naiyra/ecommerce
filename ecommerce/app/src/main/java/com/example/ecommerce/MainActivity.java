@@ -43,8 +43,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
+        SharedPreferences selected_item = getSharedPreferences("PREF", 0);
+        SharedPreferences.Editor editor = selected_item.edit();
+        editor.putBoolean("is Search",false);
+        editor.commit();
         getSupportActionBar().hide();
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
