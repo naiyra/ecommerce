@@ -160,7 +160,8 @@
             android:layout_height="40dp"
             android:layout_marginStart="52dp"
             android:layout_marginEnd="72dp"
-            android:text="Button"
+            android:text="Add"
+            android:backgroundTint="@color/teal_700"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pp1" />
@@ -172,7 +173,8 @@
             android:layout_marginStart="56dp"
             android:layout_marginTop="148dp"
             android:layout_marginEnd="64dp"
-            android:text="Button"
+            android:text="Add"
+            android:backgroundTint="@color/teal_700"
             app:layout_constraintEnd_toStartOf="@+id/imageView2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -184,7 +186,8 @@
             android:layout_marginStart="54dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="66dp"
-            android:text="Button"
+            android:text="Add"
+            android:backgroundTint="@color/teal_700"
             app:layout_constraintEnd_toStartOf="@+id/imageView3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pp3" />
@@ -196,7 +199,8 @@
             android:layout_marginStart="60dp"
             android:layout_marginTop="360dp"
             android:layout_marginEnd="60dp"
-            android:text="Button"
+            android:text="Add"
+            android:backgroundTint="@color/teal_700"
             app:layout_constraintEnd_toStartOf="@+id/imageView4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -207,7 +211,8 @@
             android:layout_height="40dp"
             android:layout_marginStart="44dp"
             android:layout_marginTop="440dp"
-            android:text="Button"
+            android:text="Add"
+            android:backgroundTint="@color/teal_700"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

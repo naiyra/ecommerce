@@ -85,7 +85,7 @@ public class Cart extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
+                Intent intent = new Intent(getApplicationContext(),gps.class);
                 startActivity(intent);
             }
         });

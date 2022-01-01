@@ -10,6 +10,39 @@
         android:layout_height="500dp"
         android:background="#FFFFFF">
 
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="644dp"
+            android:text="Price:"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="852dp"
+            android:text="Price:"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="420dp"
+            android:text="Price:"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <ImageView
             android:id="@+id/imageView21"
             android:layout_width="100dp"
@@ -57,7 +90,7 @@
         <ImageView
             android:id="@+id/imageView17"
             android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_height="195dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="12dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -67,53 +100,33 @@
             app:srcCompat="@drawable/short1" />
 
         <TextView
-            android:id="@+id/textView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="2dp"
-            android:text="10"
-            android:textColor="#000000"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView19" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:text="Shorts2"
-            android:textColor="#000000"
-            app:layout_constraintTop_toBottomOf="@+id/bu1"
-            tools:layout_editor_absoluteX="29dp" />
-
-        <TextView
             android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="144dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="396dp"
             android:text="Shorts3"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bu2" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="420dp"
             android:text="15"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="160dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="104dp"
             android:text="Shorts4"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
@@ -123,8 +136,8 @@
             android:id="@+id/textView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="4dp"
             android:text="18"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
@@ -134,8 +147,8 @@
             android:id="@+id/textView24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="84dp"
             android:text="Shorts5"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
@@ -145,40 +158,42 @@
             android:id="@+id/textView25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="852dp"
             android:text="15"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/bu1"
             android:layout_width="100sp"
+            android:backgroundTint="@color/teal_700"
             android:layout_height="40dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="72dp"
             android:text="Add"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView17"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="32dp"
             android:text="20"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
             android:text="Shorts1"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
@@ -187,19 +202,54 @@
         <Button
             android:id="@+id/bu2"
             android:layout_width="100dp"
+            android:backgroundTint="@color/teal_700"
             android:layout_height="40dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="256dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="308dp"
             android:text="Add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="264dp"
+            android:text="Price:"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="244dp"
+            android:text="Shorts2"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="264dp"
+            android:text="10"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/bu3"
             android:layout_width="100dp"
+            android:backgroundTint="@color/teal_700"
             android:layout_height="40dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="484dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="520dp"
             android:text="Add"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -207,9 +257,10 @@
         <Button
             android:id="@+id/bu4"
             android:layout_width="100dp"
+            android:backgroundTint="@color/teal_700"
             android:layout_height="40dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="152dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="148dp"
             android:text="Add"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bu3" />
@@ -217,12 +268,24 @@
         <Button
             android:id="@+id/bu5"
             android:layout_width="100dp"
+            android:backgroundTint="@color/teal_700"
             android:layout_height="40dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="144dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="184dp"
             android:text="Add"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bu4" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Price:"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

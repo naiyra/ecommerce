@@ -13,11 +13,15 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+        android:id="@+id/Home_page"
+        android:background="@drawable/list_of_bgs">
+
 
 
         <Button
             android:id="@+id/button"
+
             android:layout_width="match_parent"
             android:layout_height="258dp"
             android:text="SHOPPING CART"
@@ -33,9 +37,10 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
+
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/design_default_color_primary"
+            android:background="@color/teal_700"
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
