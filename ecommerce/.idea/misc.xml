@@ -26,9 +26,10 @@
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/drawable/background3.xml" value="0.1" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/drawable/ic_baseline_keyboard_voice_24.xml" value="0.51875" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/drawable/list_of_bgs.xml" value="0.1" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_barcode_scanner.xml" value="0.1" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_cart.xml" value="0.1" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_gps.xml" value="0.1" />
-        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_home_page.xml" value="0.1" />
+        <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_home_page.xml" value="0.75" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_login.xml" value="0.5075" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_maps.xml" value="0.33" />
         <entry key="..\:/projects/ecommerce/ecommerce/app/src/main/res/layout/activity_mapss.xml" value="0.67" />

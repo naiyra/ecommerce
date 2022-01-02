@@ -18,6 +18,9 @@
         <item android:id="@+id/nav_searchVoice"
             android:icon="@drawable/ic_baseline_keyboard_voice_24"
             android:title="Voice search"/>
+        <item android:id="@+id/nav_barcodeScanner"
+            android:icon="@drawable/ic_iconmonstr_barcode_9"
+            android:title="Barcode Scanner"/>
         <item android:id="@+id/nav_Home"
 
             android:title="Home Page"/>

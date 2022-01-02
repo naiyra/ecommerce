@@ -13,6 +13,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
         android:id="@+id/btnLoc"
         android:text="Get Location"/>
 

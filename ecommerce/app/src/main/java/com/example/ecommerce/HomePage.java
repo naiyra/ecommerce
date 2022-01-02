@@ -140,6 +140,10 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
                 intent = new Intent(getApplicationContext(), HomePage.class);
                 startActivity(intent);
                 break;
+            case R.id.nav_barcodeScanner:
+                intent = new Intent(getApplicationContext(), barcodeScanner.class);
+                startActivity(intent);
+                break;
             case R.id.nav_logout:
                intent = new Intent(getApplicationContext(), Login.class);
                 startActivity(intent);
