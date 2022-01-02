@@ -42,7 +42,6 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
         SharedPreferences selected_item = getSharedPreferences("PREF", 0);
 
 
-        int index = selected_item.getInt("index", 0);
         boolean b= selected_item.getBoolean("is Search",false);
         String s= selected_item.getString("category","");
 
@@ -56,7 +55,7 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
             } else if (s.equals("pants")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new PantsFrag()).commit();
-            } else if (s.equals("T-shirt")) {
+            } else if (s.equals("t-shirt")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new TshirtsFrag()).commit();
             }

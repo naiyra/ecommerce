@@ -50,7 +50,7 @@ public class searchByVoice extends AppCompatActivity {
         srch = (EditText) findViewById(R.id.txtsrch);
         categories.add("shorts");
         categories.add("pants");
-        categories.add("T-shirts");
+        categories.add("t-shirts");
 
         btn=findViewById(R.id.button6);
 

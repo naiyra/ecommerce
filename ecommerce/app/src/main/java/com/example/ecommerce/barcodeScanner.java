@@ -6,10 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
@@ -47,26 +49,32 @@ Button btscan;
         {
             AlertDialog.Builder builder= new AlertDialog.Builder(barcodeScanner.this);
             builder.setTitle("Result");
-            builder.setMessage(intentResult.getContents());
-            if(intentResult.getContents().equals("pant1"))
+            //builder.setMessage(intentResult.getContents());
+            String word = intentResult.getContents();
+            String word2 = "";
+            for(int i = 0; i < word.length(); i++)
+            {
+                if(word.charAt(i) != '+')
+                {
+                    word2 += word.charAt(i);
+                }
+            }
+            word2 = word2.toLowerCase();
+            builder.setMessage(word2);
+            if(word2.equals("pant1"))
             {
                 Toast.makeText(getApplicationContext(), "Do you want to add pant1 to shopping cart?", Toast.LENGTH_LONG).show();
-
+                find("pants");
             }
-            else if(intentResult.getContents().equals("short1"))
+            else if(word2.equals("short1"))
             {
-
                 Toast.makeText(getApplicationContext(), "Do you want to add short1 to shopping cart?", Toast.LENGTH_LONG).show();
+                find("shorts");
             }
-            else if(intentResult.getContents().equals("tshirt1"))
+            else if(word2.equals("tshirt1"))
             {
-
                 Toast.makeText(getApplicationContext(), "Do you want to add tshirt1 to shopping cart?", Toast.LENGTH_LONG).show();
-            }
-            else if(intentResult.getContents().equals("pant2"))
-            {
-
-                Toast.makeText(getApplicationContext(), "Do you want to add pant2 to shopping cart?", Toast.LENGTH_LONG).show();
+                find("t-shirts");
             }
             else
             {
@@ -82,5 +90,17 @@ Button btscan;
         }else {
             Toast.makeText(getApplicationContext(), "You didnt scan anything", Toast.LENGTH_SHORT).show();
         }
+    }
+    public void find(String s)
+    {
+        SharedPreferences item_name = getSharedPreferences("PREF",0);
+        SharedPreferences.Editor editor = item_name.edit();
+
+
+        editor.putBoolean("is Search",true);
+        editor.putString("category",s);
+        editor.commit();
+        Intent intent = new Intent(getApplicationContext(), HomePage.class);
+        startActivity(intent);
     }
 }
